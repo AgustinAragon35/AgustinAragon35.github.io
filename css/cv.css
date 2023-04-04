@@ -11,9 +11,9 @@ body{
 .barra {
 	width: auto;
 	height: auto;
-	background-color: #008a88;
+	background-color: white;
 	box-shadow: 1px 1px 6px #9da8bd;
-	padding-right: 18px;
+	padding-right: 0px;
 }
 
 .contenedor_img{
@@ -22,6 +22,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #008a88;
 }
 
 #imagen_perfil{
@@ -33,17 +34,54 @@ body{
 .contenedor_titulo_barra{
 	width: auto;
 	padding-left: 18px;
-}
-
-.contenedor_titulo_barra h2{
+	padding-right: 18px;
 	margin: 0px;
 	padding-bottom: 5px;
-	padding-top: 10px;
-	font-size: 13px;
-	color: white;
-	text-transform: uppercase;
-	border-bottom: 1px solid white;
+	padding-top: 20px;
 }
+
+
+
+.contenedor_titulo_barra button{
+	
+	width: auto;
+	height: 20px;
+	background-color: #008a88;
+	color: rgb(255, 255, 255);
+    border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    padding: 0px;
+	width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+	text-transform: uppercase;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	
+}
+
+.btn_contacto:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #626262;
+    color: white;
+}
+
+.btn_tecnologias:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #626262;
+    color: white;
+}
+
+.btn_redesSociales:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #626262;
+    color: white;
+}
+
 
 .contenedor_iconos{
 
@@ -56,19 +94,19 @@ body{
 .iconos{
 	display: grid;
 	gap: 12px;
-	color: white;
+	color: #008a88;
 }
 
 .iconos_textos{
 	display: grid;
 	gap: 12px;
-	color: #eaebf3;
+	color: #626262;
 	font-size: 14px;
 }
 
 .wsp{
 	text-decoration: none;
-	color: #eaebf3;
+	color: #626262;
 }
 
 .info_educacion{
@@ -150,16 +188,20 @@ body{
 	color: #626262;
 }
 
-.prueba{
+.caja_tecnologia{
 	padding: 10px 18px 20px 18px}
 
-.prueba h4 {
+.caja_tecnologia h4 {
     text-transform: uppercase;
-    color: white;
+    color: #626262;
     font-size: 13px;
     margin: 10px 0px 10px 0px;
     display: flex;
     gap: 8px;
+}
+
+.caja_tecnologia i{
+    color: #008a88;
 }
 
 .porcentaje_fondo{
@@ -175,6 +217,14 @@ body{
 	top: 0;
 	left: 0;
 	height: 100%;
-	background-color: #b5b5b5;
+	background-color: #008a88;
 	
+}
+
+.ocultar_bloque{
+	display: none;
+}
+
+.mostrar_bloque{
+	display: block;
 }
